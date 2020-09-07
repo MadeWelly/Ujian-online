@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "Open in Chrome",     
+            "isBuildCommand": true,
+            "command": "chrome",
+            "windows": {
+                "command": "C:/Google/Chrome/Application/chrome.exe"
+            },
+            "args": [
+                "http://localhost:8080/${relativeFile}"
+            ]
+        }
+    
+    ]
+}

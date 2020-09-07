@@ -1,0 +1,114 @@
+#loading{
+    width: 50px;
+    height: 50px;
+    border: solid 5px #ccc;
+    border-top-color: #ff6a00;
+    border-radius: 100%;
+    position: fixed;
+    left: 0;right: 0;top: 0; bottom: 0;
+    margin: auto;
+    z-index: 1;
+
+    animation: putar 2s linear infinite;
+
+  }
+
+  @keyframes putar{
+    from{transform: rotate(0deg)}
+    to{transform: rotate(360deg)}
+  }
+
+.form-group .form-control{
+    background-color: #b7b9b952;
+}
+
+body{
+	margin:0;
+	padding: 0;
+	background: url('http://localhost/Made/ujian_online/assets/img/bg.png');
+	background-size: cover; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: sans-serif;
+
+}
+/*.sidebar{
+	padding-right:0;
+	padding-left: .4rem;
+}*/
+
+.user-panel .image {
+    display: inline-block;
+    padding-left:0;
+ }
+.navbar-nav i{
+	color: white;
+}
+
+.navbar-nav .nav-item a{
+	color: white;
+}
+
+.main-sidebar{
+	opacity: 0.7;
+	width: 210px;
+}
+
+.main-footer{
+	opacity: 0.9;
+	background:#343a40;
+	padding: 0.5rem 
+}
+
+.sidebar-collapse .main-sidebar, .sidebar-collapse .main-sidebar::after {
+	width: 4.6rem;
+}
+.layout-navbar-fixed .wrapper .brand-link {
+	width: 210px;
+}
+body:not(.sidebar-mini-md) .content-wrapper, body:not(.sidebar-mini-md) .main-footer, body:not(.sidebar-mini-md) .main-header {
+    transition: margin-left .3s ease-in-out;
+    margin-left: 210px;
+}
+
+.dropdown-menu-lg h3, .dropdown-menu-lg p {
+    color: black;
+    padding-top:5px;
+    letter-spacing: 2px; 
+}
+
+.dropdown-menu-lg .dropdown-footer{
+	background: darkslategray;
+}
+
+.card.max{
+	display: none;
+}
+
+.card.max:target {
+	display: block; 
+    height: 100%!important;
+    left: 87px;
+    max-height: 100%!important;
+    max-width: 100%!important;
+    position: fixed;
+    top: 61px;
+    width: 93%!important;
+    z-index: 9999;
+    overflow: scroll;
+}
+
+.modal-backdrop .fade .show .backdrop{
+    display: none;
+}
+
+.custom-control-label::after{
+  left: -1.5rem;
+}
+.custom-control-label::before{
+  left: -1.5rem;
+}
+
+
+
